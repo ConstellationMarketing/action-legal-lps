@@ -17,14 +17,6 @@ export const AboutUsSection = (): JSX.Element => {
         </h2>
 
         <div className="flex flex-col items-center">
-          <div className="w-full mb-12 max-w-4xl">
-            <img
-              src="/action-legal-attorney-min.png"
-              alt="Action Legal Services team"
-              className="w-full h-auto rounded-lg"
-            />
-          </div>
-
           <div className="flex flex-col space-y-6 text-center max-w-3xl mb-12">
             <p className="font-lato text-base leading-relaxed" style={{ color: '#2c3e50' }}>
               Action Legal is a Reno-based law firm focused on providing guidance and representation in bankruptcy cases. We assist clients in Northern Nevada and Eastern California, helping individuals and small businesses navigate Chapter 7 and Chapter 13 bankruptcy filings.
