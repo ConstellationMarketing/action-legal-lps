@@ -9,14 +9,11 @@ import { WhyUsSection } from "./sections/WhyUsSection";
 import { WhyChooseUsSection } from "./sections/WhyChooseUsSection";
 import { AboutUsSection } from "./sections/AboutUsSection";
 import { AttorneySection } from "./sections/AttorneySection";
-import { BadgesSection } from "./sections/BadgesSection";
-
 export const Frame = (): JSX.Element => {
   return (
     <div className="w-full bg-wosnik-light">
       <div className="flex flex-col">
         <HeroSection />
-        <BadgesSection />
         <CriminalDefenseServicesSection />
         <WhyChooseUsSection />
         <AboutUsSection />
