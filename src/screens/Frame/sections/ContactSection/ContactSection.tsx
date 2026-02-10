@@ -22,8 +22,8 @@ export const ContactSection = (): JSX.Element => {
             <form
               id="contact-form"
               name="bankruptcy-form"
-              action="https://usebasin.com/f/700c92dca26f"
               method="POST"
+              netlify
               className="space-y-4"
             >
               <div>
