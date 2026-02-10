@@ -8,7 +8,7 @@ export const HeroSection = (): JSX.Element => {
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center">
             <img
-              src="/action-legal-logo-min.png"
+              src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F295467e174de49fb8b5b9e8a889610fd?format=webp&width=800&height=1200"
               alt="Action Legal Services"
               className="h-10 w-auto object-contain"
             />
