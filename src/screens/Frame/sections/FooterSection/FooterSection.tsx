@@ -9,7 +9,7 @@ export const FooterSection = (): JSX.Element => {
             © Action Legal Services - 2026, All Rights Reserved.
           </p>
           <p className="font-lato text-xs mt-2" style={{ color: '#2c3e50' }}>
-            Nevada Bankruptcy Attorney | (775) 347-9226 | nathan@zlaw.com
+            Nevada Bankruptcy Attorney | (775) 347-9226
           </p>
         </div>
       </div>
