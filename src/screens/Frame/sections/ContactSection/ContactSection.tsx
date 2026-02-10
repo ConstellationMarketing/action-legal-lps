@@ -20,7 +20,7 @@ export const ContactSection = (): JSX.Element => {
               Request a Consultation
             </h3>
             <form
-              id="contact-form"
+              id="bankruptcy-lp-form"
               name="bankruptcy-form"
               method="POST"
               netlify
