@@ -103,13 +103,6 @@ export const ContactSection = (): JSX.Element => {
                     <p className="font-lato text-sm" style={{ color: '#2c3e50' }}>Call for your free consultation</p>
                   </div>
                 </div>
-                <div className="flex items-start">
-                  <Mail className="w-5 h-5 mr-3 mt-1 flex-shrink-0" style={{ color: '#c6a475' }} />
-                  <div>
-                    <p className="font-lato font-medium" style={{ color: '#2c3e50' }}>nathan@zlaw.com</p>
-                    <p className="font-lato text-sm" style={{ color: '#2c3e50' }}>Email us anytime</p>
-                  </div>
-                </div>
               </div>
             </div>
 
