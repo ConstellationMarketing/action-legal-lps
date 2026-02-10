@@ -29,11 +29,11 @@ export const HeroSection = (): JSX.Element => {
 
       {/* Hero Content */}
       <div className="relative w-full max-w-7xl mx-auto px-4 py-16 md:py-24 text-center">
-        <h1 className="font-lato text-4xl md:text-5xl lg:text-6xl font-normal leading-tight mb-4" style={{ color: '#2c3e50' }}>
+        <h1 className="font-lato text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4" style={{ color: '#2c3e50' }}>
           Get a Fresh Financial Start with Trusted Bankruptcy Help
         </h1>
 
-        <h2 className="font-lato text-xl md:text-2xl font-semibold mb-6" style={{ color: '#2c3e50' }}>
+        <h2 className="font-lato text-xl md:text-2xl font-bold mb-6" style={{ color: '#2c3e50' }}>
           Northern Nevada & Eastern California Bankruptcy Attorneys
         </h2>
 

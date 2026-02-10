@@ -6,7 +6,7 @@ export const ContactSection = (): JSX.Element => {
     <section id="contact" className="w-full py-12 md:py-20" style={{ backgroundColor: '#e3dfd6' }}>
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="font-lato text-3xl md:text-4xl font-normal mb-4" style={{ color: '#2c3e50' }}>
+          <h2 className="font-lato text-3xl md:text-4xl font-bold mb-4" style={{ color: '#2c3e50' }}>
             Contact Action Legal
           </h2>
           <p className="font-lato text-lg" style={{ color: '#2c3e50' }}>
@@ -16,7 +16,7 @@ export const ContactSection = (): JSX.Element => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-12">
           <div className="bg-white p-8 rounded-lg shadow-md">
-            <h3 className="font-lato text-2xl font-normal mb-6" style={{ color: '#2c3e50' }}>
+            <h3 className="font-lato text-2xl font-bold mb-6" style={{ color: '#2c3e50' }}>
               Request a Consultation
             </h3>
             <form
@@ -92,7 +92,7 @@ export const ContactSection = (): JSX.Element => {
 
           <div className="space-y-8">
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="font-lato text-2xl font-normal mb-6" style={{ color: '#2c3e50' }}>
+              <h3 className="font-lato text-2xl font-bold mb-6" style={{ color: '#2c3e50' }}>
                 Contact Information
               </h3>
               <div className="space-y-4">
@@ -114,7 +114,7 @@ export const ContactSection = (): JSX.Element => {
             </div>
 
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="font-lato text-2xl font-normal mb-6" style={{ color: '#2c3e50' }}>
+              <h3 className="font-lato text-2xl font-bold mb-6" style={{ color: '#2c3e50' }}>
                 Office Location
               </h3>
               <div className="space-y-6">
@@ -131,7 +131,7 @@ export const ContactSection = (): JSX.Element => {
             </div>
 
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="font-lato text-2xl font-normal mb-6" style={{ color: '#2c3e50' }}>
+              <h3 className="font-lato text-2xl font-bold mb-6" style={{ color: '#2c3e50' }}>
                 What To Expect
               </h3>
               <ul className="space-y-2 font-lato text-sm" style={{ color: '#2c3e50' }}>

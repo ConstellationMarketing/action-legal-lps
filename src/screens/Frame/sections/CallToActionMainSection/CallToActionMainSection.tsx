@@ -4,7 +4,7 @@ export const CallToActionMainSection = (): JSX.Element => {
   return (
     <section className="w-full py-12 md:py-16" style={{ backgroundColor: '#e3dfd6' }}>
       <div className="max-w-6xl mx-auto px-4 text-center">
-        <h2 className="font-lato text-3xl md:text-4xl font-normal mb-6" style={{ color: '#2c3e50' }}>
+        <h2 className="font-lato text-3xl md:text-4xl font-bold mb-6" style={{ color: '#2c3e50' }}>
           Call Now for Bankruptcy Help
         </h2>
         <p className="font-lato text-lg mb-8 max-w-2xl mx-auto" style={{ color: '#2c3e50' }}>

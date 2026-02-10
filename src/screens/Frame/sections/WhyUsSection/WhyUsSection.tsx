@@ -14,7 +14,7 @@ export const WhyUsSection = (): JSX.Element => {
   return (
     <section className="w-full py-12 md:py-20" style={{ backgroundColor: 'white' }}>
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="font-lato text-3xl md:text-4xl font-normal text-center mb-12" style={{ color: '#2c3e50' }}>
+        <h2 className="font-lato text-3xl md:text-4xl font-bold text-center mb-12" style={{ color: '#2c3e50' }}>
           Our Service Highlights
         </h2>
 

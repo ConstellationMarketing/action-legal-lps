@@ -12,7 +12,7 @@ export const ThankYou = (): JSX.Element => {
             </div>
           </div>
 
-          <h1 className="font-lato text-4xl md:text-5xl font-normal mb-4" style={{ color: '#2c3e50' }}>
+          <h1 className="font-lato text-4xl md:text-5xl font-bold mb-4" style={{ color: '#2c3e50' }}>
             Your Request Has Been Received
           </h1>
 

@@ -12,7 +12,7 @@ export const AboutUsSection = (): JSX.Element => {
   return (
     <section id="about-us" className="w-full pt-6 md:pt-8 pb-12 md:pb-20" style={{ backgroundColor: 'white' }}>
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="font-lato text-3xl md:text-4xl font-normal text-center mb-12" style={{ color: '#2c3e50' }}>
+        <h2 className="font-lato text-3xl md:text-4xl font-bold text-center mb-12" style={{ color: '#2c3e50' }}>
           About Action Legal
         </h2>
 
@@ -44,7 +44,7 @@ export const AboutUsSection = (): JSX.Element => {
           </div>
 
           <div className="w-full">
-            <h3 className="font-lato text-2xl font-normal text-center mb-8" style={{ color: '#2c3e50' }}>
+            <h3 className="font-lato text-2xl font-bold text-center mb-8" style={{ color: '#2c3e50' }}>
               Why Choose Action Legal
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

@@ -24,7 +24,7 @@ export const WhyChooseUsSection = (): JSX.Element => {
   return (
     <section className="w-full pt-12 md:pt-20 pb-6 md:pb-8" style={{ backgroundColor: 'white' }}>
       <div className="max-w-7xl mx-auto px-4">
-        <h2 className="font-lato text-3xl md:text-4xl font-normal text-center mb-3" style={{ color: '#2c3e50' }}>
+        <h2 className="font-lato text-3xl md:text-4xl font-bold text-center mb-3" style={{ color: '#2c3e50' }}>
           Why Choose Action Legal
         </h2>
         <p className="font-lato text-center text-lg mb-12" style={{ color: '#2c3e50' }}>
