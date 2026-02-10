@@ -13,18 +13,18 @@ export const HeroSection = (): JSX.Element => {
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center">
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F295467e174de49fb8b5b9e8a889610fd?format=webp&width=800&height=1200"
+              src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F785a74076a2748f2b559333bed486ea9?format=webp&width=800&height=1200"
               alt="Action Legal Services"
               className="h-10 w-auto object-contain"
             />
           </div>
 
           <div className="flex flex-col items-end">
-            <p className="font-lato text-xs uppercase tracking-wider" style={{ color: '#2c3e50' }}>Nevada Trusted Bankruptcy Law Firm</p>
+            <p className="font-lato text-xs uppercase tracking-wider" style={{ color: '#ffffff' }}>Nevada Trusted Bankruptcy Law Firm</p>
             <a
               href="tel:7753479226"
               className="font-lato hover:opacity-80 transition-opacity text-lg font-semibold"
-              style={{ color: '#2c3e50' }}
+              style={{ color: '#ffffff' }}
             >
               (775) 347-9226
             </a>
