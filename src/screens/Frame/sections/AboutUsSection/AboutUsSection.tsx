@@ -3,10 +3,22 @@ import { CheckCircle } from "lucide-react";
 
 export const AboutUsSection = (): JSX.Element => {
   const highlights = [
-    "Clear Bankruptcy Guidance",
-    "Northern Nevada & Eastern California Coverage",
-    "Practical Solutions for Consumers & Businesses",
-    "Free Consultation for Consumers"
+    {
+      title: "Clear Bankruptcy Guidance",
+      description: "Step-by-step guidance for Chapter 7 and Chapter 13 filings to help clients regain control of their finances."
+    },
+    {
+      title: "Northern Nevada & Eastern California Coverage",
+      description: "Serving individuals and small businesses across Northern Nevada and Eastern California with personalized attention."
+    },
+    {
+      title: "Practical Solutions for Consumers & Businesses",
+      description: "Helping clients navigate both personal and small business bankruptcy cases while protecting financial rights and options."
+    },
+    {
+      title: "Free Consultation for Consumers",
+      description: "Speak directly with Nathan R. Zeltzer to review your situation, understand your options, and take the first step toward relief."
+    }
   ];
 
   return (
@@ -47,8 +59,11 @@ export const AboutUsSection = (): JSX.Element => {
                   style={{ backgroundColor: '#e3dfd6', borderColor: '#c6a475' }}
                 >
                   <CheckCircle className="w-10 h-10 mb-3" style={{ color: '#c6a475' }} />
-                  <p className="font-lato text-sm font-medium leading-relaxed" style={{ color: '#2c3e50' }}>
-                    {highlight}
+                  <h4 className="font-lato text-sm font-bold leading-relaxed mb-2" style={{ color: '#2c3e50' }}>
+                    {highlight.title}
+                  </h4>
+                  <p className="font-lato text-xs leading-relaxed" style={{ color: '#2c3e50' }}>
+                    {highlight.description}
                   </p>
                 </div>
               ))}
