@@ -26,6 +26,8 @@ export const ContactSection = (): JSX.Element => {
               netlify
               className="space-y-4"
             >
+              <input type="hidden" name="_redirect" value="/thank-you" />
+              <input type="hidden" name="_to" value="nathan@zlaw.com" />
               <div>
                 <input
                   type="text"
