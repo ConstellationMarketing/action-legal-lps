@@ -54,7 +54,8 @@ export const HeroSection = (): JSX.Element => {
             onMouseLeave={(e) => (e.currentTarget.style.opacity = '1')}
             onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
           >
-            Request Your Free Consultation
+            <span className="sm:hidden">Free Consultation</span>
+            <span className="hidden sm:inline">Request Your Free Consultation</span>
           </button>
         </div>
       </div>
