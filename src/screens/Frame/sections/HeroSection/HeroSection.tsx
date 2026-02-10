@@ -19,8 +19,8 @@ export const HeroSection = (): JSX.Element => {
             />
           </div>
 
-          <div className="flex flex-col items-end">
-            <p className="font-lato text-xs uppercase tracking-wider" style={{ color: '#ffffff' }}>Nevada Trusted Bankruptcy Law Firm</p>
+          <div className="flex flex-col items-end justify-center">
+            <p className="hidden md:block font-lato text-xs uppercase tracking-wider" style={{ color: '#ffffff' }}>Nevada Trusted Bankruptcy Law Firm</p>
             <a
               href="tel:7753479226"
               className="font-lato hover:opacity-80 transition-opacity text-lg font-semibold"
@@ -33,8 +33,8 @@ export const HeroSection = (): JSX.Element => {
       </div>
 
       {/* Hero Content */}
-      <div className="relative w-full max-w-7xl mx-auto px-4 py-16 md:py-24 text-center">
-        <div className="rounded-lg p-8 md:p-12 inline-block" style={{ backgroundColor: '#e3dfd6' }}>
+      <div className="relative w-full max-w-7xl mx-auto px-4 py-16 md:py-24 text-center flex items-center justify-center min-h-[calc(100vh-120px)] md:min-h-[600px]">
+        <div className="rounded-lg p-6 md:p-12 w-full md:w-auto" style={{ backgroundColor: '#e3dfd6' }}>
           <h1 className="font-lato text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4" style={{ color: '#2c3e50' }}>
             Get a Fresh Financial Start with Trusted Bankruptcy Help
           </h1>
