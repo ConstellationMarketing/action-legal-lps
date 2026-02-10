@@ -48,9 +48,6 @@ export const AboutUsSection = (): JSX.Element => {
           </div>
 
           <div className="w-full">
-            <h3 className="font-lato text-2xl font-bold text-center mb-8" style={{ color: '#2c3e50' }}>
-              Why Choose Action Legal
-            </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {highlights.map((highlight, index) => (
                 <div
