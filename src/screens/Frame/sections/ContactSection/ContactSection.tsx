@@ -23,11 +23,12 @@ export const ContactSection = (): JSX.Element => {
               id="bankruptcy-lp-form"
               name="bankruptcy-form"
               method="POST"
-              netlify
+              data-netlify="true"
+              netlify-honeypot="bot-field"
               className="space-y-4"
             >
+              <input type="hidden" name="bot-field" />
               <input type="hidden" name="_redirect" value="/thank-you" />
-              <input type="hidden" name="_to" value="nathan@zlaw.com" />
               <div>
                 <input
                   type="text"
