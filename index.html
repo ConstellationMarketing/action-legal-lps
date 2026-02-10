@@ -128,21 +128,21 @@
       if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', function() {
           populateTrackingFields();
-          const form = document.getElementById('contact-form');
+          const form = document.getElementById('bankruptcy-lp-form');
           if (form) {
             form.addEventListener('submit', handleFormSubmit);
           }
         });
       } else {
         populateTrackingFields();
-        const form = document.getElementById('contact-form');
+        const form = document.getElementById('bankruptcy-lp-form');
         if (form) {
           form.addEventListener('submit', handleFormSubmit);
         }
       }
 
       document.addEventListener('focusin', function(e) {
-        if (e.target.form && e.target.form.id === 'contact-form') {
+        if (e.target.form && e.target.form.id === 'bankruptcy-lp-form') {
           setTimeout(populateTrackingFields, 100);
         }
       });
