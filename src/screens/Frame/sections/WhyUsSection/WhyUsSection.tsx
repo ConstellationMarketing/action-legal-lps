@@ -1,65 +1,34 @@
 import React from "react";
 import { Card, CardContent } from "../../../../components/ui/card";
+import { CheckCircle2 } from "lucide-react";
 
 export const WhyUsSection = (): JSX.Element => {
-  const caseResults = [
-    {
-      charge: "Motorcycle DUI",
-      caseNumber: "STATE V. N.B.",
-      result: "NOT GUILTY",
-      description: "Defendant was pulled over for speeding on his motorcycle and charged with DUI. We demanded a bench trial and the Court found him not guilty."
-    },
-    {
-      charge: "DUI to Reckless Driving",
-      caseNumber: "STATE V. R.S.",
-      result: "REDUCED",
-      description: "Defendant was charged with DUI and had his driver's license suspended following a single-vehicle accident. We negotiated a reduction to reckless driving and reinstatement of his license."
-    },
-    {
-      charge: "Marijuana DUI",
-      caseNumber: "STATE V. Z.P.",
-      result: "DISMISSED",
-      description: "Defendant was charged with DUI after marijuana was found in his vehicle. We successfully argued that there was no evidence of intoxication and resolved his case was a dismissal of the DUI and a fine only for the marijuana."
-    }
+  const serviceHighlights = [
+    "Guidance through Chapter 7 and Chapter 13 bankruptcy filings, helping clients regain financial stability.",
+    "Free case evaluation available to review your options and next steps.",
+    "Personalized planning and assistance with bankruptcy paperwork and procedures.",
+    "Serving individuals and small business clients across Northern Nevada and Eastern California.",
+    "Practical, step-by-step guidance through the bankruptcy process to help you understand your rights and choices."
   ];
 
   return (
-    <section className="w-full py-12 md:py-20 bg-white">
+    <section className="w-full py-12 md:py-20" style={{ backgroundColor: 'white' }}>
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="font-heading text-wosnik-dark text-3xl md:text-4xl font-normal text-center mb-12">
-          Criminal Case Results
+        <h2 className="font-lato text-3xl md:text-4xl font-normal text-center mb-12" style={{ color: '#2c3e50' }}>
+          Our Service Highlights
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {caseResults.map((caseItem, index) => {
-            const getBadgeColor = (result: string) => {
-              if (result === "NOT GUILTY") return "bg-green-600";
-              if (result === "REDUCED") return "bg-green-600";
-              if (result === "DISMISSED") return "bg-green-600";
-              return "bg-green-600";
-            };
-
-            return (
-              <Card key={index} className="bg-gray-50 border-none shadow-md">
-                <CardContent className="p-6">
-                  <div className="mb-4">
-                    <h3 className="font-heading text-wosnik-dark text-xl font-normal mb-2">
-                      {caseItem.charge}
-                    </h3>
-                    <p className="font-body text-gray-600 text-sm italic mb-2">
-                      {caseItem.caseNumber}
-                    </p>
-                    <div className={`inline-block ${getBadgeColor(caseItem.result)} text-white font-body font-semibold text-sm px-4 py-1 rounded uppercase`}>
-                      {caseItem.result}
-                    </div>
-                  </div>
-                  <p className="font-body text-gray-700 text-sm leading-relaxed">
-                    {caseItem.description}
-                  </p>
-                </CardContent>
-              </Card>
-            );
-          })}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          {serviceHighlights.map((highlight, index) => (
+            <Card key={index} className="border-none shadow-md" style={{ backgroundColor: '#e3dfd6' }}>
+              <CardContent className="p-6 flex items-start gap-4">
+                <CheckCircle2 className="w-6 h-6 flex-shrink-0 mt-1" style={{ color: '#c6a475' }} />
+                <p className="font-lato text-base leading-relaxed" style={{ color: '#2c3e50' }}>
+                  {highlight}
+                </p>
+              </CardContent>
+            </Card>
+          ))}
         </div>
       </div>
     </section>

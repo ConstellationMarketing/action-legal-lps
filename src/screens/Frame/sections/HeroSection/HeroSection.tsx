@@ -2,25 +2,26 @@ import React from "react";
 
 export const HeroSection = (): JSX.Element => {
   return (
-    <section className="relative w-full min-h-[500px] bg-wosnik-dark">
+    <section className="relative w-full min-h-[500px]" style={{ backgroundColor: '#e3dfd6' }}>
       {/* Navigation Bar */}
-      <div className="relative w-full bg-wosnik-dark border-b border-wosnik-accent/20">
+      <div className="relative w-full border-b" style={{ backgroundColor: '#c6a475', borderColor: 'rgba(45, 67, 84, 0.1)' }}>
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center">
             <img
-              src="/wosnik-law-logo-white-gold-min.png"
-              alt="Wosnik Law"
+              src="/action-legal-logo-min.png"
+              alt="Action Legal Services"
               className="h-10 w-auto object-contain"
             />
           </div>
 
           <div className="flex flex-col items-end">
-            <p className="font-body text-wosnik-accent text-xs uppercase tracking-wider">Se habla español Call 24/7</p>
+            <p className="font-lato text-xs uppercase tracking-wider" style={{ color: '#2c3e50' }}>Nevada Trusted Bankruptcy Law Firm</p>
             <a
-              href="tel:6784036418"
-              className="font-body text-white hover:text-wosnik-accent transition-colors text-lg font-semibold"
+              href="tel:7753479226"
+              className="font-lato hover:opacity-80 transition-opacity text-lg font-semibold"
+              style={{ color: '#2c3e50' }}
             >
-              (678) 403-6418
+              (775) 347-9226
             </a>
           </div>
         </div>
@@ -28,23 +29,26 @@ export const HeroSection = (): JSX.Element => {
 
       {/* Hero Content */}
       <div className="relative w-full max-w-7xl mx-auto px-4 py-16 md:py-24 text-center">
-        <h1 className="font-heading text-white text-4xl md:text-5xl lg:text-6xl font-normal leading-tight mb-4">
-          Defending Your Rights, Protecting Your Freedom
+        <h1 className="font-lato text-4xl md:text-5xl lg:text-6xl font-normal leading-tight mb-4" style={{ color: '#2c3e50' }}>
+          Get a Fresh Financial Start with Trusted Bankruptcy Help
         </h1>
 
-        <h2 className="font-body text-wosnik-accent text-xl md:text-2xl font-semibold mb-6">
-          Georgia Criminal Defense Attorneys — Wosnik Law
+        <h2 className="font-lato text-xl md:text-2xl font-semibold mb-6" style={{ color: '#2c3e50' }}>
+          Northern Nevada & Eastern California Bankruptcy Attorneys
         </h2>
 
-        <p className="font-body text-white text-base max-w-3xl mx-auto leading-relaxed mb-8">
-          With over 35 years of combined experience, Wosnik Law delivers aggressive criminal defense, DUI representation, and family law services to protect your rights and secure the best possible outcome.
+        <p className="font-lato text-base max-w-3xl mx-auto leading-relaxed mb-8" style={{ color: '#2c3e50' }}>
+          Facing financial difficulties or considering bankruptcy? Action Legal provides trusted guidance for Chapter 7 and Chapter 13 cases, helping both individuals and small businesses navigate the process. We offer free consultations for consumers and flexible virtual or phone appointments, ensuring your financial future is protected.
         </p>
 
         <button
-          className="bg-wosnik-accent hover:bg-wosnik-accent/80 text-wosnik-dark font-inter font-medium text-sm px-8 py-3 rounded-full border border-wosnik-accent transition-all duration-150 uppercase tracking-[2px] whitespace-nowrap inline-block"
+          className="font-lato font-medium text-sm px-8 py-3 rounded-full border transition-all duration-150 uppercase tracking-[2px] whitespace-nowrap inline-block"
+          style={{ backgroundColor: '#2d4354', color: 'white', borderColor: '#2d4354' }}
+          onMouseEnter={(e) => (e.currentTarget.style.opacity = '0.9')}
+          onMouseLeave={(e) => (e.currentTarget.style.opacity = '1')}
           onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
         >
-          Get Your Free Consultation
+          Request Your Free Consultation
         </button>
       </div>
     </section>

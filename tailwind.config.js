@@ -40,17 +40,24 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        wosnik: {
-          accent: '#deab1e',
-          dark: '#181820',
-          light: '#efefef',
-          darken: '#e1e1e1',
+        actionLegal: {
+          primary: '#c6a475',
+          secondary: '#e3dfd6',
+          ctaButton: '#61645b',
+          blueButton: '#2d4354',
+          buttonText: '#ffffff',
+          text: '#2c3e50',
         },
       },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      fontSize: {
+        'h2': ['46px', { lineHeight: '1.2' }],
+        'h3': ['20px', { lineHeight: '1.3' }],
+        'body': ['16px', { lineHeight: '1.6' }],
       },
       fontFamily: {
         sans: [
@@ -62,10 +69,10 @@ module.exports = {
           '"Segoe UI Symbol"',
           '"Noto Color Emoji"',
         ],
-        heading: ['"Libre Baskerville"', 'serif'],
-        body: ['"Open Sans"', 'sans-serif'],
+        heading: ['"Lato"', 'sans-serif'],
+        body: ['"Lato"', 'sans-serif'],
         inter: ['"Inter UI"', 'sans-serif'],
-        libre: ['"Libre Baskerville"', 'serif'],
+        lato: ['"Lato"', 'sans-serif'],
       },
       keyframes: {
         "accordion-down": {
