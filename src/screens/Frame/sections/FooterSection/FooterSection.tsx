@@ -6,7 +6,7 @@ export const FooterSection = (): JSX.Element => {
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center">
           <p className="font-lato text-sm" style={{ color: '#2c3e50' }}>
-            © Action Legal Services - 2025, All Rights Reserved.
+            © Action Legal Services - 2026, All Rights Reserved.
           </p>
           <p className="font-lato text-xs mt-2" style={{ color: '#2c3e50' }}>
             Nevada Bankruptcy Attorney | (775) 347-9226 | nathan@zlaw.com
