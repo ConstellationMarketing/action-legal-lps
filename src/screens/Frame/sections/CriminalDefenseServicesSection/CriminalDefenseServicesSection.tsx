@@ -24,13 +24,13 @@ export const CriminalDefenseServicesSection = (): JSX.Element => {
     <section id="practice-areas" className="w-full py-12 md:py-20" style={{ backgroundColor: '#61645b' }}>
       <div className="max-w-5xl mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="font-lato text-3xl md:text-4xl font-bold mb-4" style={{ color: '#2c3e50' }}>
+          <h2 className="font-lato text-3xl md:text-4xl font-bold mb-4" style={{ color: '#ffffff' }}>
             Bankruptcy Solutions You Can Rely On
           </h2>
-          <p className="font-lato text-base max-w-3xl mx-auto mb-8" style={{ color: '#2c3e50' }}>
+          <p className="font-lato text-base max-w-3xl mx-auto mb-8" style={{ color: '#ffffff' }}>
             Our team guides you through every step of the bankruptcy process, from consultation to resolution.
           </p>
-          <h3 className="font-lato text-2xl font-bold" style={{ color: '#2c3e50' }}>
+          <h3 className="font-lato text-2xl font-bold" style={{ color: '#ffffff' }}>
             Bankruptcy Cases We Handle
           </h3>
         </div>
