@@ -11,7 +11,7 @@ export const AttorneySection = (): JSX.Element => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
           <div className="w-full h-full min-h-[400px]">
             <img
-              src="/nathan-zeltzer-attorney-action-legal-1x1.jpg"
+              src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2Fbd14c83f1509460bbff011b7a6055a2e?format=webp&width=800&height=1200"
               alt="Nathan R. Zeltzer, Attorney"
               className="w-full h-full object-cover rounded-lg"
             />
