@@ -53,7 +53,7 @@ export const CriminalDefenseServicesSection = (): JSX.Element => {
         </div>
 
         {/* CTA Section */}
-        <div className="mt-16 rounded-lg p-12 text-center" style={{ backgroundColor: '#c6a475' }}>
+        <div className="mt-16 rounded-lg p-12 text-center" style={{ backgroundColor: '#ffffff' }}>
           <h3 className="font-lato text-2xl md:text-3xl font-bold mb-6" style={{ color: '#2c3e50' }}>
             Ready to Get Help?
           </h3>
