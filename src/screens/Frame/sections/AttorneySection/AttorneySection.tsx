@@ -37,7 +37,7 @@ export const AttorneySection = (): JSX.Element => {
             <div className="pt-4">
               <button
                 onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
-                className="font-lato font-medium text-sm px-8 py-3 rounded-full transition-all duration-150 uppercase tracking-[2px] whitespace-nowrap inline-block text-white"
+                className="font-lato font-medium text-sm px-8 py-3 transition-all duration-150 uppercase tracking-[2px] whitespace-nowrap inline-block text-white"
                 style={{ backgroundColor: '#2d4354' }}
                 onMouseEnter={(e) => (e.currentTarget.style.opacity = '0.9')}
                 onMouseLeave={(e) => (e.currentTarget.style.opacity = '1')}

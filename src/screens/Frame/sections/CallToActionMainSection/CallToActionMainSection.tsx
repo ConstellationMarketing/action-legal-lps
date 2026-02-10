@@ -13,7 +13,7 @@ export const CallToActionMainSection = (): JSX.Element => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
             href="tel:7753479226"
-            className="font-lato font-semibold px-8 py-4 rounded-lg transition-all text-white"
+            className="font-lato font-semibold px-8 py-4 transition-all text-white"
             style={{ backgroundColor: '#61645b' }}
             onMouseEnter={(e) => (e.currentTarget.style.opacity = '0.9')}
             onMouseLeave={(e) => (e.currentTarget.style.opacity = '1')}
@@ -22,7 +22,7 @@ export const CallToActionMainSection = (): JSX.Element => {
           </a>
           <button
             onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
-            className="font-lato font-semibold px-8 py-4 rounded-lg transition-all text-white"
+            className="font-lato font-semibold px-8 py-4 transition-all text-white"
             style={{ backgroundColor: '#2d4354' }}
             onMouseEnter={(e) => (e.currentTarget.style.opacity = '0.9')}
             onMouseLeave={(e) => (e.currentTarget.style.opacity = '1')}
