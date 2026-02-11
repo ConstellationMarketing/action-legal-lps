@@ -21,7 +21,7 @@ export const CallToActionMainSection = (): JSX.Element => {
             Call Now: (775) 347-9226
           </a>
           <button
-            onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => document.getElementById('bankruptcy-lp-form')?.scrollIntoView({ behavior: 'smooth' })}
             className="font-lato font-semibold px-8 py-4 transition-all text-white"
             style={{ backgroundColor: '#2d4354' }}
             onMouseEnter={(e) => (e.currentTarget.style.opacity = '0.9')}

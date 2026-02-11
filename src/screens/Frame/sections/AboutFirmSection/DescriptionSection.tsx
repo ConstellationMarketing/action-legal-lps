@@ -96,8 +96,8 @@ export const DescriptionSection = (): JSX.Element => {
             >
               Call Now: (678) 403-6418
             </a>
-            <button 
-              onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
+            <button
+              onClick={() => document.getElementById('bankruptcy-lp-form')?.scrollIntoView({ behavior: 'smooth' })}
               className="bg-[#182246] hover:bg-[#1a2654] text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
             >
               Request Consultation
