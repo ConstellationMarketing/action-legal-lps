@@ -3,7 +3,7 @@ import React from "react";
 export const HeroSection = (): JSX.Element => {
   return (
     <section className="relative w-full min-h-[500px]" style={{
-      backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F4aa50f8858c147eba914d10a90d60e05?format=webp&width=800&height=1200)',
+      backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2Fb0c45fcfbad64201a4b05a06547f44dc?format=webp&width=800&height=1200)',
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundAttachment: 'fixed'
