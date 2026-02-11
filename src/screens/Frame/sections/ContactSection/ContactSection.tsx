@@ -10,7 +10,7 @@ export const ContactSection = (): JSX.Element => {
             Contact Action Legal
           </h2>
           <p className="font-lato text-lg" style={{ color: '#2c3e50' }}>
-            Let's discuss your financial situation - get trusted bankruptcy guidance today.
+            Let's discuss your financial situation - Get trusted bankruptcy guidance today.
           </p>
         </div>
 
