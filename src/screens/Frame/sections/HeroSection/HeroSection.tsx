@@ -3,7 +3,7 @@ import React from "react";
 export const HeroSection = (): JSX.Element => {
   return (
     <section className="relative w-full min-h-[500px]" style={{
-      backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2Fb0c45fcfbad64201a4b05a06547f44dc?format=webp&width=800&height=1200)',
+      backgroundImage: 'linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2Fb0c45fcfbad64201a4b05a06547f44dc?format=webp&width=800&height=1200)',
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundAttachment: 'fixed'
@@ -36,7 +36,7 @@ export const HeroSection = (): JSX.Element => {
 
       {/* Hero Content */}
       <div className="relative w-full max-w-7xl mx-auto px-4 py-16 md:py-24 text-center flex items-center justify-center min-h-[calc(100vh-120px)] md:min-h-[600px]">
-        <div className="rounded-lg p-6 md:p-12 w-full md:w-auto" style={{ backgroundColor: '#e3dfd6' }}>
+        <div className="rounded-lg p-6 md:p-12 w-full md:w-auto">
           <h1 className="font-lato text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4" style={{ color: '#2c3e50' }}>
             Get a Fresh Financial Start with Trusted Bankruptcy Help
           </h1>
