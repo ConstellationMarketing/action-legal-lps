@@ -102,8 +102,7 @@ export const ContactSection = (): JSX.Element => {
                 <div className="flex items-start">
                   <Phone className="w-5 h-5 mr-3 mt-1 flex-shrink-0" style={{ color: '#c6a475' }} />
                   <div>
-                    <p className="font-lato font-medium" style={{ color: '#2c3e50' }}>(775) 347-9226</p>
-                    <p className="font-lato text-sm" style={{ color: '#2c3e50' }}>Call for your free consultation</p>
+                    <a href="tel:7753479226" className="font-lato font-medium hover:opacity-80 transition-opacity" style={{ color: '#2c3e50' }}>(775) 347-9226</a>
                   </div>
                 </div>
               </div>
