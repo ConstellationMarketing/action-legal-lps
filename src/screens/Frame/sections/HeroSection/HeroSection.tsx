@@ -23,10 +23,12 @@ export const HeroSection = (): JSX.Element => {
             <p className="hidden md:block font-lato text-xs uppercase tracking-wider" style={{ color: '#ffffff' }}>Nevada Trusted Bankruptcy Law Firm</p>
             <a
               href="tel:7753479226"
-              className="font-lato hover:opacity-80 transition-opacity text-lg font-semibold"
+              className="font-lato transition-colors text-lg font-semibold"
               style={{ color: '#ffffff' }}
+              onMouseEnter={(e) => (e.currentTarget.style.color = '#2e3e4f')}
+              onMouseLeave={(e) => (e.currentTarget.style.color = '#ffffff')}
             >
-              (775) 347-9226
+              Call Now (775) 347-9226
             </a>
           </div>
         </div>
