@@ -45,9 +45,11 @@ export const HeroSection = (): JSX.Element => {
             Northern Nevada & Eastern California Bankruptcy Attorneys
           </h2>
 
-          <p className="font-lato text-base max-w-3xl mx-auto leading-relaxed mb-8" style={{ color: '#2c3e50' }}>
-            Facing financial difficulties or considering bankruptcy? Action Legal provides trusted guidance for Chapter 7 and Chapter 13 cases, helping both individuals and small businesses navigate the process. We offer free consultations for consumers and flexible virtual or phone appointments, ensuring your financial future is protected.
-          </p>
+          <div className="max-w-3xl mx-auto mb-8 p-6" style={{ backgroundColor: 'rgba(255, 255, 255, 0.95)' }}>
+            <p className="font-lato text-base leading-relaxed" style={{ color: '#2c3e50' }}>
+              Facing financial difficulties or considering bankruptcy? Action Legal provides trusted guidance for Chapter 7 and Chapter 13 cases, helping both individuals and small businesses navigate the process. We offer free consultations for consumers and flexible virtual or phone appointments, ensuring your financial future is protected.
+            </p>
+          </div>
 
           <button
             className="font-lato font-medium text-sm px-8 py-3 border transition-all duration-150 uppercase tracking-[2px] whitespace-nowrap inline-block"
