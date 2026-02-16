@@ -21,12 +21,12 @@ export const ContactSection = (): JSX.Element => {
             </h3>
             <form
               id="bankruptcy-lp-form"
-              name="contact"
+              name="bankruptcy-form"
               method="POST"
               action="/thank-you"
               className="space-y-4"
             >
-              <input type="hidden" name="form-name" value="contact" />
+              <input type="hidden" name="form-name" value="bankruptcy-form" />
               <input type="hidden" name="bot-field" />
               <div>
                 <input
