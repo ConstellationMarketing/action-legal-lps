@@ -28,7 +28,7 @@ export const ContactSection = (): JSX.Element => {
               className="space-y-4"
             >
               <input type="hidden" name="bot-field" />
-              <input type="hidden" name="_redirect" value="https://actionlegal.com/thank-you" />
+              <input type="hidden" name="_redirect" value="https://help.actionlegal.com/thank-you" />
               <div>
                 <input
                   type="text"
