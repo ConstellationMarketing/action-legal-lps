@@ -91,53 +91,12 @@
         console.log('✅ Form fields populated with tracking data');
       }
 
-      function handleFormSubmit(event) {
-        populateTrackingFields();
-
-        const form = event.target;
-        const sourceField = form.querySelector('#utm_source');
-        const mediumField = form.querySelector('#utm_medium');
-
-        if (sourceField && mediumField) {
-          const source = sourceField.value;
-          const medium = mediumField.value;
-
-          const illogicalCombinations = [
-            { source: 'direct', medium: 'organic' },
-            { source: 'direct', medium: 'referral' },
-            { source: 'direct', medium: 'social' },
-            { source: 'direct', medium: 'cpc' }
-          ];
-
-          for (const combo of illogicalCombinations) {
-            if (source === combo.source && medium === combo.medium) {
-              console.error('❌ Form validation failed: Illogical attribution combination detected');
-              console.error('Source:', source, 'Medium:', medium);
-              alert('Error: Invalid tracking data detected. Please contact support.');
-              event.preventDefault();
-              return false;
-            }
-          }
-
-          console.log('✅ Form validation passed');
-          console.log('Submitting with Source:', source, 'Medium:', medium);
-        }
-      }
-
       if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', function() {
           populateTrackingFields();
-          const form = document.getElementById('bankruptcy-lp-form');
-          if (form) {
-            form.addEventListener('submit', handleFormSubmit);
-          }
         });
       } else {
         populateTrackingFields();
-        const form = document.getElementById('bankruptcy-lp-form');
-        if (form) {
-          form.addEventListener('submit', handleFormSubmit);
-        }
       }
 
       document.addEventListener('focusin', function(e) {
