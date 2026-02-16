@@ -38,7 +38,7 @@ export const HeroSection = (): JSX.Element => {
       <div className="relative w-full max-w-7xl mx-auto px-4 py-16 md:py-24 text-center flex items-center justify-center min-h-[calc(100vh-120px)] md:min-h-[600px]">
         <div className="rounded-lg p-6 md:p-12 w-full md:w-auto">
           <h1 className="font-lato text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4" style={{ color: '#2c3e50' }}>
-            Get a Fresh Financial Start with Trusted Bankruptcy Help
+            Get a Fresh Financial Start With Chapter 7 & 13 Help
           </h1>
 
           <h2 className="font-lato text-xl md:text-2xl font-bold mb-6" style={{ color: '#2c3e50' }}>
