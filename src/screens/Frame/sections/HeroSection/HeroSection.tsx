@@ -53,7 +53,7 @@ export const HeroSection = (): JSX.Element => {
           </div>
 
           <button
-            className="font-lato font-medium text-sm px-8 py-3 border transition-all duration-150 uppercase tracking-[2px] whitespace-nowrap inline-block"
+            className="font-lato font-medium text-sm px-8 py-3 border transition-all duration-150 uppercase tracking-[2px] whitespace-nowrap block md:inline-block mx-auto md:mx-0"
             style={{ backgroundColor: '#2d4354', color: 'white', borderColor: '#2d4354' }}
             onMouseEnter={(e) => (e.currentTarget.style.opacity = '0.9')}
             onMouseLeave={(e) => (e.currentTarget.style.opacity = '1')}
