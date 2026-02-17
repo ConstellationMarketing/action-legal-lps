@@ -10,7 +10,7 @@ export const HeroSection = (): JSX.Element => {
     }}>
       {/* Navigation Bar */}
       <div className="relative w-full border-b" style={{ backgroundColor: '#c6a475', borderColor: 'rgba(45, 67, 84, 0.1)' }}>
-        <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col md:flex-row items-center md:justify-between">
           <div className="flex items-center">
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F785a74076a2748f2b559333bed486ea9?format=webp&width=800&height=1200"
@@ -19,7 +19,7 @@ export const HeroSection = (): JSX.Element => {
             />
           </div>
 
-          <div className="flex flex-col items-end justify-center">
+          <div className="flex flex-col items-center md:items-end justify-center">
             <p className="hidden md:block font-lato text-xs uppercase tracking-wider" style={{ color: '#ffffff' }}>Nevada Trusted Bankruptcy Law Firm</p>
             <a
               href="tel:7753479226"
