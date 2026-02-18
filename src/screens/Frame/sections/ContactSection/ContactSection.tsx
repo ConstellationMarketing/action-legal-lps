@@ -130,7 +130,7 @@ export const ContactSection = (): JSX.Element => {
                 What To Expect
               </h3>
               <ul className="space-y-2 font-lato text-sm" style={{ color: '#2c3e50' }}>
-                <li>• Free consultation for consumers</li>
+                <li>• Free consultations available for consumer bankruptcy cases</li>
                 <li>• Confidential case evaluation</li>
                 <li>• Clear explanation of your options</li>
                 <li>• Step-by-step bankruptcy guidance</li>

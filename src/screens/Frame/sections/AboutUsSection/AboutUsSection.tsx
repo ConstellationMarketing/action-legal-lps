@@ -9,15 +9,15 @@ export const AboutUsSection = (): JSX.Element => {
     },
     {
       title: "Northern Nevada & Eastern California Coverage",
-      description: "Serving individuals and small businesses across Northern Nevada and Eastern California with personalized attention."
+      description: "Serving individuals and business clients across Northern Nevada and Eastern California with personalized attention."
     },
     {
-      title: "Practical Solutions for Consumers & Businesses",
-      description: "Helping clients navigate both personal and small business bankruptcy cases while protecting financial rights and options."
+      title: "Practical Solutions for Consumer & Business Bankruptcy",
+      description: "Helping clients navigate both consumer and business bankruptcy cases while protecting financial rights and options."
     },
     {
-      title: "Free Consultation for Consumers",
-      description: "Speak directly with Nathan R. Zeltzer to review your situation, understand your options, and take the first step toward relief."
+      title: "Consultation Options",
+      description: "Free consultations for consumer bankruptcy cases. Business bankruptcy consultations available for a nominal fee. Speak directly with Nathan R. Zeltzer to review your situation."
     }
   ];
 
@@ -31,7 +31,7 @@ export const AboutUsSection = (): JSX.Element => {
         <div className="flex flex-col items-center">
           <div className="flex flex-col space-y-6 text-center max-w-3xl mb-12">
             <p className="font-lato text-base leading-relaxed" style={{ color: '#2c3e50' }}>
-              Action Legal is a Reno-based law firm focused on providing guidance and representation in bankruptcy cases. We assist clients in Northern Nevada and Eastern California, helping individuals and small businesses navigate Chapter 7 and Chapter 13 bankruptcy filings.
+              Action Legal is a Reno-based law firm focused on providing guidance and representation in bankruptcy cases. We assist clients in Northern Nevada and Eastern California, helping individuals and business clients navigate Chapter 7 and Chapter 13 bankruptcy filings.
             </p>
 
             <p className="font-lato text-base leading-relaxed" style={{ color: '#2c3e50' }}>
@@ -43,7 +43,7 @@ export const AboutUsSection = (): JSX.Element => {
             </p>
 
             <p className="font-lato text-base leading-relaxed" style={{ color: '#2c3e50' }}>
-              Whether you are facing personal financial challenges or managing small business debts, Action Legal is here to guide you through bankruptcy proceedings and help you take control of your financial future.
+              Whether you are facing personal financial challenges or managing business debts, Action Legal is here to guide you through bankruptcy proceedings and help you take control of your financial future.
             </p>
           </div>
 

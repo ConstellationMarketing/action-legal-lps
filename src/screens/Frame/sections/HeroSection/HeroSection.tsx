@@ -48,7 +48,7 @@ export const HeroSection = (): JSX.Element => {
 
           <div className="max-w-3xl mx-auto mb-8 p-6 rounded-lg" style={{ backgroundColor: 'rgba(255, 255, 255, 0.95)' }}>
             <p className="font-lato text-base leading-relaxed" style={{ color: '#2c3e50' }}>
-              Facing financial difficulties or considering bankruptcy? Action Legal provides trusted guidance for Chapter 7 and Chapter 13 cases, helping both individuals and small businesses navigate the process. We offer free consultations for consumers and flexible virtual or phone appointments, ensuring your financial future is protected.
+              Facing financial difficulties or considering bankruptcy? Action Legal provides trusted guidance for Chapter 7 and Chapter 13 cases, helping both individuals and business clients navigate the process. We offer free consultations for consumer bankruptcy cases and flexible virtual or phone appointments, ensuring your financial future is protected.
             </p>
           </div>
 

@@ -15,8 +15,8 @@ export const CriminalDefenseServicesSection = (): JSX.Element => {
       description: "Personalized consultation to review your financial situation, explain options, and outline next steps."
     },
     {
-      title: "Small Business Bankruptcy Support",
-      description: "Helping small business owners assess options and navigate Chapter 7 or Chapter 13 bankruptcy filings."
+      title: "Business Bankruptcy Support",
+      description: "Helping business owners assess options and navigate Chapter 7 or Chapter 13 bankruptcy filings."
     },
   ];
 
@@ -78,7 +78,7 @@ export const CriminalDefenseServicesSection = (): JSX.Element => {
             </button>
 
             <p className="font-lato text-base" style={{ color: '#2c3e50' }}>
-              Free consultations available for consumers
+              Free consultations available for consumer bankruptcy cases. Business bankruptcy consultations available for a nominal fee.
             </p>
           </div>
         </div>

@@ -19,7 +19,7 @@ export const AttorneySection = (): JSX.Element => {
 
           <div className="flex flex-col justify-center space-y-6">
             <p className="font-lato text-base leading-relaxed" style={{ color: '#2c3e50' }}>
-              Nathan R. Zeltzer is a qualified bankruptcy attorney helping clients in Northern Nevada and Eastern California navigate Chapter 7 and Chapter 13 bankruptcy. He assists both individuals and small businesses in understanding and managing their financial options.
+              Nathan R. Zeltzer is a qualified bankruptcy attorney helping clients in Northern Nevada and Eastern California navigate Chapter 7 and Chapter 13 bankruptcy. He assists both individuals and business clients in understanding and managing their financial options.
             </p>
 
             <p className="font-lato text-base leading-relaxed" style={{ color: '#2c3e50' }}>
@@ -31,7 +31,7 @@ export const AttorneySection = (): JSX.Element => {
             </p>
 
             <p className="font-lato text-base leading-relaxed" style={{ color: '#2c3e50' }}>
-              From consumer debt to small business bankruptcy cases, Nathan provides thoughtful guidance and step-by-step support, helping clients regain control of their finances and take the first steps toward a fresh start.
+              From consumer debt to business bankruptcy cases, Nathan provides thoughtful guidance and step-by-step support, helping clients regain control of their finances and take the first steps toward a fresh start.
             </p>
 
             <div className="pt-4">
