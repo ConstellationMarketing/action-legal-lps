@@ -62,6 +62,44 @@ export const ThankYou = (): JSX.Element => {
             Return to Homepage
           </a>
         </div>
+
+        <div className="mt-12 bg-white rounded-lg shadow-lg p-8 text-left">
+          <h2 className="font-lato text-2xl font-bold mb-6" style={{ color: '#2c3e50' }}>
+            About Action Legal
+          </h2>
+
+          <div className="space-y-6 font-lato" style={{ color: '#2c3e50' }}>
+            <div>
+              <h3 className="font-bold mb-2" style={{ color: '#c6a475' }}>Primary Practice Areas:</h3>
+              <p>Bankruptcy – Chapter 7 & Chapter 13</p>
+              <p>Consumer & Business Bankruptcy</p>
+            </div>
+
+            <div>
+              <h3 className="font-bold mb-2" style={{ color: '#c6a475' }}>Geographic Areas Served:</h3>
+              <p>Northern Nevada and Eastern California</p>
+            </div>
+
+            <div>
+              <h3 className="font-bold mb-2" style={{ color: '#c6a475' }}>Years of Experience:</h3>
+              <p>Trusted guidance for clients navigating bankruptcy and debt relief</p>
+            </div>
+
+            <div>
+              <h3 className="font-bold mb-2" style={{ color: '#c6a475' }}>Notable Achievements/Credentials:</h3>
+              <ul className="list-disc list-inside space-y-1">
+                <li>Assists clients in managing both personal and business bankruptcy</li>
+                <li>Helps clients understand complex bankruptcy procedures and requirements</li>
+                <li>Supports clients in protecting assets and financial rights throughout the bankruptcy process</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="font-bold mb-2" style={{ color: '#c6a475' }}>Unique Value Proposition:</h3>
+              <p>Clear, practical bankruptcy guidance for consumers and businesses, helping clients regain financial control with step-by-step support and personalized attention</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
