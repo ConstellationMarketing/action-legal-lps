@@ -55,7 +55,7 @@ export const CriminalDefenseServicesSection = (): JSX.Element => {
         {/* CTA Section */}
         <div className="mt-16 rounded-lg p-12 text-center" style={{ backgroundColor: '#c6a475' }}>
           <h3 className="font-lato text-2xl md:text-3xl font-bold mb-6" style={{ color: '#2c3e50' }}>
-            Ready to Get Help?
+            Call Now for Bankruptcy Help
           </h3>
 
           <a
@@ -78,7 +78,7 @@ export const CriminalDefenseServicesSection = (): JSX.Element => {
             </button>
 
             <p className="font-lato text-base" style={{ color: '#2c3e50' }}>
-              Free consultations available for consumer bankruptcy cases. Business bankruptcy consultations available for a nominal fee.
+              Free consultations available for consumers bankruptcy; business consultations are available for a nominal fee.
             </p>
           </div>
         </div>
