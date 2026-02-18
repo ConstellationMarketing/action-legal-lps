@@ -8,12 +8,12 @@ export const CallToActionMainSection = (): JSX.Element => {
           Call Now for Bankruptcy Help
         </h2>
         <p className="font-lato text-lg mb-8 max-w-2xl mx-auto" style={{ color: '#2c3e50' }}>
-          Free consultations available for consumers; Small business consultations are available for a nominal fee.
+          Free consultations available for consumers; business consultations are available for a nominal fee.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
             href="tel:7753479226"
-            className="font-lato font-semibold px-8 py-4 transition-all text-white"
+            className="font-lato font-semibold px-8 py-4 transition-all text-white uppercase tracking-[1px]"
             style={{ backgroundColor: '#61645b' }}
             onMouseEnter={(e) => (e.currentTarget.style.opacity = '0.9')}
             onMouseLeave={(e) => (e.currentTarget.style.opacity = '1')}
@@ -27,7 +27,7 @@ export const CallToActionMainSection = (): JSX.Element => {
             onMouseEnter={(e) => (e.currentTarget.style.opacity = '0.9')}
             onMouseLeave={(e) => (e.currentTarget.style.opacity = '1')}
           >
-            Request Free Consultation
+            Request Your Consultation
           </button>
         </div>
       </div>
