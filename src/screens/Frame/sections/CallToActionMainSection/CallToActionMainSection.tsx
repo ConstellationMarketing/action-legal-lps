@@ -22,7 +22,7 @@ export const CallToActionMainSection = (): JSX.Element => {
           </a>
           <button
             onClick={() => document.getElementById('bankruptcy-lp-form')?.scrollIntoView({ behavior: 'smooth' })}
-            className="font-lato font-semibold px-8 py-4 transition-all text-white"
+            className="font-lato font-semibold px-8 py-4 transition-all text-white uppercase tracking-[1px]"
             style={{ backgroundColor: '#2d4354' }}
             onMouseEnter={(e) => (e.currentTarget.style.opacity = '0.9')}
             onMouseLeave={(e) => (e.currentTarget.style.opacity = '1')}
