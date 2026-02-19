@@ -12,11 +12,11 @@ export const AboutUsSection = (): JSX.Element => {
       description: "Serving individuals and businesses across Northern Nevada and Eastern California with personalized attention."
     },
     {
-      title: "Practical Solutions for Consumers bankruptcy & Businesses bankruptcy",
+      title: "Practical Solutions for Consumer bankruptcy & Businesses bankruptcy",
       description: "Helping clients navigate both personal and business bankruptcy cases while protecting financial rights and options."
     },
     {
-      title: "Free Consultation for Consumers bankruptcy",
+      title: "Free Consultation for Consumer bankruptcy",
       description: "Speak directly with Nathan R. Zeltzer to review your situation, understand your options, and take the first step toward relief."
     }
   ];
