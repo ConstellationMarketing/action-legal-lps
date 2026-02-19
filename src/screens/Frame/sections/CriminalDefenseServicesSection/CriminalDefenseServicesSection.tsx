@@ -78,7 +78,7 @@ export const CriminalDefenseServicesSection = (): JSX.Element => {
             </button>
 
             <p className="font-lato text-base" style={{ color: '#2c3e50' }}>
-              Free consultations available for consumers bankruptcy; business consultations are available for a nominal fee.
+              Free consultations are available for consumer bankruptcy cases. Business bankruptcy consultations are offered for a nominal fee.
             </p>
           </div>
         </div>
