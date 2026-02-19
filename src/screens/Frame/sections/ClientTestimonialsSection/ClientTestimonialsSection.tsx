@@ -9,7 +9,7 @@ export const ClientTestimonialsSection = (): JSX.Element => {
       description: "Personalized support for people struggling with overwhelming financial obligations who may qualify for Chapter 7 or Chapter 13 bankruptcy relief."
     },
     {
-      title: "Small Business Owners with Financial Strain",
+      title: "Business Owners with Financial Strain",
       description: "Guidance for small business owners considering bankruptcy options to manage business debts, reorganize payments, and protect business interests."
     },
     {
