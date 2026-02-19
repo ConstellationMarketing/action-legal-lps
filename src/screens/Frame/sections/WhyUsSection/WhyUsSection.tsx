@@ -7,7 +7,7 @@ export const WhyUsSection = (): JSX.Element => {
     "Guidance through Chapter 7 and Chapter 13 bankruptcy filings, helping clients regain financial stability.",
     "Free case evaluation available to review your options and next steps.",
     "Personalized planning and assistance with bankruptcy paperwork and procedures.",
-    "Serving individuals and small business clients across Northern Nevada and Eastern California.",
+    "Serving individuals and business clients across Northern Nevada and Eastern California.",
     "Practical, step-by-step guidance through the bankruptcy process to help you understand your rights and choices."
   ];
 
