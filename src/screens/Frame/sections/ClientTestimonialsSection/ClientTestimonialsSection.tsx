@@ -10,7 +10,7 @@ export const ClientTestimonialsSection = (): JSX.Element => {
     },
     {
       title: "Business Owners with Financial Strain",
-      description: "Guidance for small business owners considering bankruptcy options to manage business debts, reorganize payments, and protect business interests."
+      description: "Guidance for business owners considering bankruptcy options to manage business debts, reorganize payments, and protect business interests."
     },
     {
       title: "Stop Foreclosure & Creditor Actions",
