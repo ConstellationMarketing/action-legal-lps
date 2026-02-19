@@ -9,7 +9,7 @@ export const AboutUsSection = (): JSX.Element => {
     },
     {
       title: "Northern Nevada & Eastern California Coverage",
-      description: "Serving individuals and businesses across Northern Nevada and Eastern California with personalized attention."
+      description: "Serving individuals and business clients across Northern Nevada and Eastern California."
     },
     {
       title: "Practical Solutions for Consumer bankruptcy & Businesses bankruptcy",
