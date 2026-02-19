@@ -13,7 +13,7 @@ export const WhyChooseUsSection = (): JSX.Element => {
     },
     {
       icon: Briefcase,
-      text: "Our firm handles both Chapter 7 and Chapter 13 bankruptcy cases for consumers and small businesses across Northern Nevada and Eastern California, helping clients regain control of their finances."
+      text: "Our firm handles both Chapter 7 and Chapter 13 bankruptcy cases for consumers and businesses across Northern Nevada and Eastern California, helping clients regain control of their finances."
     },
     {
       icon: Award,
