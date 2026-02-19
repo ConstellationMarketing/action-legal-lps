@@ -8,7 +8,7 @@ export const CallToActionMainSection = (): JSX.Element => {
           Call Now for Bankruptcy Help
         </h2>
         <p className="font-lato text-lg mb-8 max-w-2xl mx-auto" style={{ color: '#2c3e50' }}>
-          Free consultations available for consumers; Business consultations are available for a nominal fee.
+          Free consultations are available for consumer bankruptcy cases. Business bankruptcy consultations are offered for a nominal fee.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
