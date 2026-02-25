@@ -1,38 +1,43 @@
 import React from "react";
-import { Phone, MapPin } from "lucide-react";
+import { Phone, MapPin, Mail } from "lucide-react";
 
 export const ContactSection = (): JSX.Element => {
   return (
-    <section id="contact" className="w-full bg-wosnik-light py-12 md:py-20">
+    <section id="contact" className="w-full py-12 md:py-20" style={{ backgroundColor: '#e3dfd6' }}>
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="font-heading text-wosnik-dark text-3xl md:text-4xl font-normal mb-4">
-            Contact Wosnik Law, LLC
+          <h2 className="font-lato text-3xl md:text-4xl font-bold mb-4" style={{ color: '#2c3e50' }}>
+            Contact Action Legal
           </h2>
-          <p className="font-body text-wosnik-dark text-lg">
-            Call and speak with us today about your criminal or family law matter
+          <p className="font-lato text-lg" style={{ color: '#2c3e50' }}>
+            Let's discuss your financial situation - Get trusted bankruptcy guidance today.
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-12">
           <div className="bg-white p-8 rounded-lg shadow-md">
-            <h3 className="font-heading text-wosnik-dark text-2xl font-normal mb-6">
-              Request Your Free Consultation
+            <h3 className="font-lato text-2xl font-bold mb-6" style={{ color: '#2c3e50' }}>
+              Request a Consultation
             </h3>
             <form
-              id="contact-form"
-              name="criminal-form"
-              action="https://usebasin.com/f/700c92dca26f"
+              id="bankruptcy-lp-form"
+              name="bankruptcy-form"
               method="POST"
+              action="/thank-you"
               className="space-y-4"
             >
+              <input type="hidden" name="form-name" value="bankruptcy-form" />
+              <input type="hidden" name="bot-field" />
               <div>
                 <input
                   type="text"
                   name="name"
                   placeholder="Name"
                   required
-                  className="w-full px-4 py-3 border border-gray-300 rounded font-body text-sm focus:outline-none focus:border-wosnik-accent"
+                  className="w-full px-4 py-3 border border-gray-300 rounded font-lato text-sm focus:outline-none"
+                  style={{ borderColor: '#c6a475' }}
+                  onFocus={(e) => (e.currentTarget.style.borderColor = '#2d4354')}
+                  onBlur={(e) => (e.currentTarget.style.borderColor = '#c6a475')}
                 />
               </div>
 
@@ -42,7 +47,10 @@ export const ContactSection = (): JSX.Element => {
                   name="email"
                   placeholder="Email"
                   required
-                  className="w-full px-4 py-3 border border-gray-300 rounded font-body text-sm focus:outline-none focus:border-wosnik-accent"
+                  className="w-full px-4 py-3 border border-gray-300 rounded font-lato text-sm focus:outline-none"
+                  style={{ borderColor: '#c6a475' }}
+                  onFocus={(e) => (e.currentTarget.style.borderColor = '#2d4354')}
+                  onBlur={(e) => (e.currentTarget.style.borderColor = '#c6a475')}
                 />
               </div>
 
@@ -52,7 +60,10 @@ export const ContactSection = (): JSX.Element => {
                   name="phone"
                   placeholder="Phone"
                   required
-                  className="w-full px-4 py-3 border border-gray-300 rounded font-body text-sm focus:outline-none focus:border-wosnik-accent"
+                  className="w-full px-4 py-3 border border-gray-300 rounded font-lato text-sm focus:outline-none"
+                  style={{ borderColor: '#c6a475' }}
+                  onFocus={(e) => (e.currentTarget.style.borderColor = '#2d4354')}
+                  onBlur={(e) => (e.currentTarget.style.borderColor = '#c6a475')}
                 />
               </div>
 
@@ -62,13 +73,19 @@ export const ContactSection = (): JSX.Element => {
                   placeholder="Message"
                   rows={5}
                   required
-                  className="w-full px-4 py-3 border border-gray-300 rounded font-body text-sm focus:outline-none focus:border-wosnik-accent resize-none"
+                  className="w-full px-4 py-3 border border-gray-300 rounded font-lato text-sm focus:outline-none resize-none"
+                  style={{ borderColor: '#c6a475' }}
+                  onFocus={(e) => (e.currentTarget.style.borderColor = '#2d4354')}
+                  onBlur={(e) => (e.currentTarget.style.borderColor = '#c6a475')}
                 ></textarea>
               </div>
 
               <button
                 type="submit"
-                className="w-full bg-wosnik-accent hover:bg-wosnik-accent/80 text-wosnik-dark font-inter font-medium text-sm px-8 py-3 rounded-full border border-wosnik-accent transition-all duration-150 uppercase tracking-[2px] whitespace-nowrap inline-block"
+                className="w-full font-lato font-medium text-sm px-8 py-3 transition-all duration-150 uppercase tracking-[2px] whitespace-nowrap text-white"
+                style={{ backgroundColor: '#2d4354' }}
+                onMouseEnter={(e) => (e.currentTarget.style.opacity = '0.9')}
+                onMouseLeave={(e) => (e.currentTarget.style.opacity = '1')}
               >
                 Send Message
               </button>
@@ -77,57 +94,61 @@ export const ContactSection = (): JSX.Element => {
 
           <div className="space-y-8">
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="font-heading text-wosnik-dark text-2xl font-normal mb-6">
+              <h3 className="font-lato text-2xl font-bold mb-6" style={{ color: '#2c3e50' }}>
                 Contact Information
               </h3>
               <div className="space-y-4">
                 <div className="flex items-start">
-                  <Phone className="w-5 h-5 text-wosnik-accent mr-3 mt-1 flex-shrink-0" />
+                  <Phone className="w-5 h-5 mr-3 mt-1 flex-shrink-0" style={{ color: '#c6a475' }} />
                   <div>
-                    <p className="font-body text-wosnik-dark font-medium">(678) 403-6418</p>
-                    <p className="font-body text-gray-600 text-sm">Available 24/7</p>
+                    <span className="font-lato font-medium mr-2" style={{ color: '#2c3e50' }}>Call Now</span>
+                    <a href="tel:7753479226" className="font-lato font-medium hover:opacity-80 transition-opacity" style={{ color: '#2c3e50' }}>(775) 347-9226</a>
                   </div>
                 </div>
               </div>
             </div>
 
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="font-heading text-wosnik-dark text-2xl font-normal mb-6">
+              <h3 className="font-lato text-2xl font-bold mb-6" style={{ color: '#2c3e50' }}>
                 Office Location
               </h3>
               <div className="space-y-6">
                 <div className="flex items-start">
-                  <MapPin className="w-5 h-5 text-wosnik-accent mr-3 mt-1 flex-shrink-0" />
+                  <MapPin className="w-5 h-5 mr-3 mt-1 flex-shrink-0" style={{ color: '#c6a475' }} />
                   <div>
-                    <p className="font-body text-wosnik-dark font-medium mb-1">Walton County Location:</p>
-                    <p className="font-body text-wosnik-dark">924 Cherokee Ave.</p>
-                    <p className="font-body text-wosnik-dark mb-2">Monroe, GA 30655</p>
-                    <p className="font-body text-gray-600 text-sm">(By Appointment Only)</p>
-                  </div>
-                </div>
-                <div className="flex items-start">
-                  <MapPin className="w-5 h-5 text-wosnik-accent mr-3 mt-1 flex-shrink-0" />
-                  <div>
-                    <p className="font-body text-wosnik-dark font-medium mb-1">Gwinnett County Location:</p>
-                    <p className="font-body text-wosnik-dark">279 W. Crogan St.</p>
-                    <p className="font-body text-wosnik-dark">Lawrenceville, GA 30046</p>
+                    <p className="font-lato font-medium mb-1" style={{ color: '#2c3e50' }}>Reno, Nevada:</p>
+                    <p className="font-lato" style={{ color: '#2c3e50' }}>232 Court St</p>
+                    <p className="font-lato mb-2" style={{ color: '#2c3e50' }}>Reno, NV 89501</p>
+                    <p className="font-lato text-sm" style={{ color: '#2c3e50' }}>Virtual and phone consultations available</p>
                   </div>
                 </div>
               </div>
+            </div>
+
+            <div className="bg-white p-8 rounded-lg shadow-md">
+              <h3 className="font-lato text-2xl font-bold mb-6" style={{ color: '#2c3e50' }}>
+                What To Expect
+              </h3>
+              <ul className="space-y-2 font-lato text-sm" style={{ color: '#2c3e50' }}>
+                <li>• Free consultations available for consumer bankruptcy cases</li>
+                <li>• Confidential case evaluation</li>
+                <li>• Clear explanation of your options</li>
+                <li>• Step-by-step bankruptcy guidance</li>
+              </ul>
             </div>
           </div>
         </div>
 
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3315.729589736112!2d-83.7009607!3d33.7934805!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5d1e30a86d521%3A0x5c677f5df8116ea0!2sWosnik%20Law!5e0!3m2!1ssr!2srs!4v1763744943259!5m2!1ssr!2srs"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3070.5894329099733!2d-119.81637!3d39.5366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809add380d68f06d%3A0x6837c96b3f4c!2s232%20Court%20St%2C%20Reno%2C%20NV%2089501!5e0!3m2!1sen!2sus!4v1634567890000"
             width="100%"
             height="400"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Wosnik Law Office Location"
+            title="Action Legal Services Office Location"
           ></iframe>
         </div>
       </div>

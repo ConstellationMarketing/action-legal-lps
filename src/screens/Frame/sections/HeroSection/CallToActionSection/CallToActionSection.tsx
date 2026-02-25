@@ -39,9 +39,9 @@ export const CallToActionSection = (): JSX.Element => {
           Experienced. Respected. Relentless in Your Defense.
         </h1>
 
-        <Button 
+        <Button
           className="mt-6 md:mt-[38px] w-full md:w-[347px] h-12 md:h-[59px] bg-[#ff8a00] rounded-[100px] border-2 border-solid hover:bg-[#e67e00] [font-family:'Montserrat',Helvetica] font-medium text-white text-base md:text-lg tracking-[0] leading-[24px] md:leading-[30.6px] mx-auto md:mx-0 block"
-          onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
+          onClick={() => document.getElementById('bankruptcy-lp-form')?.scrollIntoView({ behavior: 'smooth' })}
         >
           Schedule a Free Consultation
         </Button>

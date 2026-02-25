@@ -46,8 +46,8 @@ export const BadgesSection = (): JSX.Element => {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="left-0 bg-wosnik-accent text-wosnik-dark hover:bg-wosnik-accent/80 border-wosnik-accent" />
-            <CarouselNext className="right-0 bg-wosnik-accent text-wosnik-dark hover:bg-wosnik-accent/80 border-wosnik-accent" />
+            <CarouselPrevious className="left-0" style={{ backgroundColor: '#c6a475', color: '#2c3e50', borderColor: '#c6a475' }} />
+            <CarouselNext className="right-0" style={{ backgroundColor: '#c6a475', color: '#2c3e50', borderColor: '#c6a475' }} />
           </Carousel>
         </div>
       </div>
