@@ -23,7 +23,7 @@ export const AboutUsSection = (): JSX.Element => {
           
           <Button
             className="bg-[#ff8a00] hover:bg-[#e67d00] text-white rounded-[100px] border-2 border-solid px-6 md:px-12 py-3 md:py-6 h-auto shadow-lg transform hover:scale-105 transition-all duration-200 w-full md:w-auto"
-            onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => document.getElementById('bankruptcy-lp-form')?.scrollIntoView({ behavior: 'smooth' })}
           >
             <span className="font-['Montserrat',Helvetica] font-bold text-base md:text-lg lg:text-xl text-center leading-[24px] md:leading-[27px] lg:leading-[30.6px]">
               Get Your Free Consultation

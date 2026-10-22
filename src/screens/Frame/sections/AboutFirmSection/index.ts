@@ -1,1 +1,0 @@
-export { AboutFirmSection } from "./AboutFirmSection";
