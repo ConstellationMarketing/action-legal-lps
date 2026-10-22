@@ -11,7 +11,7 @@ import { AboutUsSection } from "./sections/AboutUsSection";
 import { AttorneySection } from "./sections/AttorneySection";
 export const Frame = (): JSX.Element => {
   return (
-    <div className="w-full bg-wosnik-light">
+    <div className="w-full bg-white">
       <div className="flex flex-col">
         <HeroSection />
         <CriminalDefenseServicesSection />
